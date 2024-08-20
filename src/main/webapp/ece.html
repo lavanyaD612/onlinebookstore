@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>College Departments</title>
+  <style>
+    /* Your CSS styles for cards */
+    .department-card {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin: 10px;
+      width: 200px;
+      text-align: center;
+      display: inline-block; /* Display cards in one row */
+      vertical-align: top; /* Align cards at the top of the row */
+    }
+    .department-card a {
+      text-decoration: none;
+    }
+    .row {
+      text-align: center;
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    nav li {
+        display: inline;
+        margin: 0 15px;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+    }
+footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+  </style>
+</head>
+<body>
+<header>
+        <h1>KL Book Store</h1>
+        <nav>
+            <ul>
+                <li><a href="userdashboard.jsp">Home</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+
+    <footer>
+        <p>&copy; 2023 Online Book Store</p>
+    </footer>
+<div class="row">
+  <div class="department-card">
+    <h2>ECE</h2>
+    <p>Year 1</p>
+    <a href="year1.html">View Details</a>
+  </div>
+
+  <div class="department-card">
+    <h2>ECE</h2>
+    <p>Year 2</p>
+    <a href="year2.html">View Details</a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="department-card">
+    <h2>ECE</h2>
+    <p>Year 3</p>
+    <a href="year3.html">View Details</a>
+  </div>
+
+  <div class="department-card">
+    <h2>ECE</h2>
+    <p>Year 4</p>
+    <a href="year4.html">View Details</a>
+  </div>
+</div>
+
+<!-- Repeat the above structure for other departments and years -->
+
+</body>
+</html>
