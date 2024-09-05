@@ -1,4 +1,4 @@
-**Online Book Store**
+# **Online Book Store**
 
 # **Project Overview:**  
 The Online Book Store project showcases the seamless integration of Java Full Stack technologies. Java forms the solid foundation for the backend, Spring Boot simplifies the development process, Angular creates an engaging and responsive frontend, and MySQL efficiently manages data. This combination of technologies delivers a dynamic and user-friendly platform for browsing, selecting, and purchasing books online.
